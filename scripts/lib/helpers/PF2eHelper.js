@@ -813,8 +813,6 @@ class pf2eActor {
             this.actor.system.actions
                 .filter((i) => i.type === 'strike' && (i.options?.includes('melee') || i.options?.includes('ranged')))
                 .sort((a, b) => (a.ready > b.ready ? 1 : a.ready < b.ready ? -1 : 0))
-                .reverse()
-                .sort((a, b) => (a.label < b.label ? -1 : a.label > b.label ? 1 : 0))
                 .forEach((strike) => {
                     rawStrikes.push(strike);
                     if (typeof strike.altUsages !== 'undefined') {
