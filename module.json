@@ -1,6 +1,6 @@
 {
     "id": "actor-export",
-    "title": "Actor export",
+    "title": "Actor export (CUSTOM)",
     "description": "Export actors for offline reference",
     "version": "0.0.1",
     "compatibility": {
@@ -19,9 +19,9 @@
     "bugs": "https://github.com/bushvin/actor-export/issues",
     "changelog": "CHANGELOG.md",
     "readme": "README.md",
-    "url": "https://github.com/bushvin/actor-export",
-    "manifest": "https://github.com/bushvin/actor-export/releases/latest/download/module.json",
-    "download": "https://github.com/bushvin/actor-export/releases/latest/download/actor-export.zip",
+    "url": "https://github.com/gbozon/actor-export",
+    "manifest": "https://github.com/gbozon/actor-export/releases/latest/download/module.json",
+    "download": "https://github.com/gbozon/actor-export/releases/latest/download/actor-export.zip",
     "license": "LICENSE",
     "esmodules": ["scripts/main.js"],
     "styles": ["styles/main.css"],
