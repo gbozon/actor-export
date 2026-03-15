@@ -54,7 +54,7 @@ jobs:
         artifacts: "module.json,${{ env.fvtt_module_id }}.zip"
         draft: false
         generateReleaseNotes: true
-        name: ${{ env.systemVersion }}
+        name: 0.1.0
         prerelease: false
-        tag: ${{ env.systemVersion }}
+        tag: 0.1.0
         token: ${{ secrets.GITHUB_TOKEN }}
