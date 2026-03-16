@@ -812,8 +812,8 @@ class pf2eActor {
             let rawStrikes = [];
             this.actor.system.actions
                 .filter((i) => i.type === 'strike' && i.slug !== 'basic-unarmed' && (i.options?.includes('melee') || i.options?.includes('ranged')))
-                .sort((a, b) => (a.ready && !b.ready ? 1 : 
-                                 !a.ready && b.ready ? -1 : 
+                .sort((a, b) => (a.ready && !b.ready ? -1 : 
+                                 !a.ready && b.ready ? 1 : 
                                  a.label < b.label ? -1 : 
                                  a.label > b.label ? 1 : 
                                  0))
